@@ -5,7 +5,7 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "start": "echo Start",
+        "start": "node index.js",
         "test": "jest --watchAll",
         "lint": "eslint"
     },
@@ -35,5 +35,8 @@
     },
     "jest": {
         "testEnvironment": "node"
+    },
+    "dependencies": {
+        "inquirer": "^8.2.0"
     }
 }
